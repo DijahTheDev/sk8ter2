@@ -22,10 +22,15 @@ body {
 }
 
 a {
-  text-decoration: none;
+  color: white;
+}
+
+#sub {
   color: white;
   padding: 5px 50px;
-  font-size: 12px;
+  font-size: 8px;
+  font-family: arial, sans-;
+  text-decoration: none;
 }
 
 #fab {
@@ -55,4 +60,21 @@ a {
   border-bottom: 1px solid rgb(128, 126, 124);
   padding: 5px;
   margin: 0;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1f 1f 1f 1f;
+}
+li {
+  list-style-type: none;
+}
+
+.navigation {
+  font-size: 8px;
+}
+
+#news {
+  color: white;
+  text-decoration: none;
 }
