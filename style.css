@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+body {
+  background-color: #939393;
+}
+
+.social {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  color: #808080;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 50px;
+  font-size: 12px;
+}
+
+#fab {
+  background-color: rgb(71, 89, 147);
+  border-bottom: 1px solid rgb(128, 126, 124);
+  padding: 5px 5px 5px 5px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+#fas {
+  background-color: rgb(196, 145, 69);
+  border-bottom: 1px solid rgb(128, 126, 124);
+  padding: 5px;
+  margin: 0;
+}
+
+#tweet {
+  background-color: rgb(112, 141, 217);
+  border-bottom: 1px solid rgb(128, 126, 124);
+  padding: 5px;
+  margin: 0;
+}
+
+#you {
+  background-color: rgb(165, 65, 52);
+  border-bottom: 1px solid rgb(128, 126, 124);
+  padding: 5px;
+  margin: 0;
+}
