@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 500px;
 }
 
 body {
@@ -19,12 +19,24 @@ body {
   justify-content: flex-end;
   color: #808080;
   margin: 0;
+  width: 500px;
 }
 
-a {
-  color: white;
+#top-pic {
+  width: 410px;
+  height: 110px;
+  object-fit: cover;
+  object-position: 100% 30%;
+  margin-left: 75px;
+  margin-right: 8px;
+  margin-top: 5px;
+  margin-bottom: 30x;
+  border: 3px solid white;
+  position: absolute;
 }
 
+#peralta {
+}
 #sub {
   color: white;
   padding: 5px 50px;
@@ -39,42 +51,49 @@ a {
   padding: 5px 5px 5px 5px;
   margin: 0;
   letter-spacing: 5px;
+  text-shadow: 10px 10px 10px grey;
 }
 
 #fas {
   background-color: rgb(196, 145, 69);
-  border-bottom: 1px solid rgb(128, 126, 124);
+  border-bottom: 2px solid rgb(128, 126, 124);
   padding: 5px;
   margin: 0;
+  text-shadow: 10px 10px 10px grey;
 }
 
 #tweet {
   background-color: rgb(112, 141, 217);
-  border-bottom: 1px solid rgb(128, 126, 124);
+  border-bottom: 2px solid rgb(128, 126, 124);
   padding: 5px;
   margin: 0;
+  text-shadow: 10px 10px 10px grey;
 }
 
 #you {
   background-color: rgb(165, 65, 52);
-  border-bottom: 1px solid rgb(128, 126, 124);
+  border-bottom: 2px solid rgb(128, 126, 124);
   padding: 5px;
   margin: 0;
+  text-shadow: 10px grey;
 }
 
-ul {
-  display: grid;
-  grid-template-columns: 1f 1f 1f 1f;
-}
-li {
-  list-style-type: none;
-}
-
-.navigation {
+#nav {
   font-size: 8px;
+  font-family: arial, sans-;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  color: white;
+  justify-content: center;
+  border-bottom: 2px solid rgb(128, 126, 124);
+  margin-top: 5px;
+  margin-left: 75px;
+  background-color: rgb(165, 65, 52);
+  padding: 5px;
 }
 
 #news {
   color: white;
   text-decoration: none;
+  background-color: rgb(165, 65, 52);
 }
