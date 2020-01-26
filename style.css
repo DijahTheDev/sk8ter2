@@ -23,20 +23,39 @@ body {
 }
 
 #top-pic {
-  width: 410px;
-  height: 110px;
+  width: 420px;
+  height: 130px;
   object-fit: cover;
   object-position: 100% 30%;
-  margin-left: 75px;
-  margin-right: 8px;
-  margin-top: 5px;
-  margin-bottom: 30x;
-  border: 3px solid white;
+  /* margin-right: 90px; */
+  /* margin-top: 5px; */
+
   position: absolute;
 }
 
-#peralta {
+#grid {
+  width: 420px;
+  height: 130px;
+  opacity: 0.2;
 }
+
+.hero {
+  margin-top: 5px;
+  margin-bottom: 30x;
+  border: 3px solid white;
+  width: 420px;
+  height: 130px;
+  margin-left: 75px;
+}
+
+#peralta {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  width: 130px;
+  height: 70px;
+}
+
 #sub {
   color: white;
   padding: 5px 50px;
