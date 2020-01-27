@@ -116,3 +116,41 @@ body {
   text-decoration: none;
   background-color: rgb(165, 65, 52);
 }
+
+.text {
+  column-count: 3;
+  column-gap: 10px;
+  background: white;
+  margin-top: 25px;
+  width: 402px;
+  border-bottom: 3px solid rgb(128, 126, 124);
+  padding: 8px 10px;
+  margin-left: 75px;
+}
+
+h2 {
+  font-size: 10px;
+  text-justify: center;
+  font-family: arial;
+}
+
+h4 {
+  font-size: 8px;
+  color: lightgray;
+  text-justify: center;
+}
+
+p {
+  font-size: 8px;
+  /* text-align: c; */
+  font-family: arial;
+}
+
+.read {
+  text-decoration: none;
+  text-justify: center;
+  font-size: 8px;
+  font-family: arial;
+  color: rgb(165, 65, 52);
+  padding-left: 30px;
+}
